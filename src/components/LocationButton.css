@@ -1,0 +1,13 @@
+.location-btn {
+  margin: 5px auto;
+  padding: 15px;
+  background: #96ded1;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+}
+
+.location-btn:hover {
+  background: #00a36c;
+  color: whitesmoke;
+}
