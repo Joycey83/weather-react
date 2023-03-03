@@ -1,0 +1,12 @@
+.search-btn {
+  border-radius: 5px;
+  background: #0f52ba;
+  border: none;
+  padding: 15px;
+  margin: 5px 15px;
+}
+
+.search-btn:hover {
+  color: aliceblue;
+  background: #3f00ff;
+}

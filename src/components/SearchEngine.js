@@ -1,5 +1,7 @@
 import React from "react";
 import "./SearchEngine.css";
+import LocationButton from "./LocationButton";
+import SearchButton from "./SearchButton";
 
 const SearchEngine = () => {
   return (
@@ -10,6 +12,8 @@ const SearchEngine = () => {
           placeholder="Enter a city name..."
           className="search-box"
         />
+        <SearchButton />
+        <LocationButton />
       </form>
     </div>
   );
