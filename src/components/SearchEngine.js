@@ -1,6 +1,5 @@
 import React from "react";
 import "./SearchEngine.css";
-import LocationButton from "./LocationButton";
 import SearchButton from "./SearchButton";
 
 const SearchEngine = () => {
@@ -13,7 +12,6 @@ const SearchEngine = () => {
           className="search-box"
         />
         <SearchButton />
-        <LocationButton />
       </form>
     </div>
   );
