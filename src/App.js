@@ -1,12 +1,16 @@
 import "./App.css";
+import backgroundImage from "./components/images/weatherbg.png";
+import SearchEngine from "./components/SearchEngine";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>HELLO REACT</h1>
-        <p>WORKING??</p>
-      </header>
+    <div>
+      <div
+        className="background"
+        style={{ backgroundImage: `url(${backgroundImage})` }}
+      >
+        <SearchEngine />
+      </div>
     </div>
   );
 }
