@@ -1,6 +1,5 @@
 import React from "react";
 import "./SearchEngine.css";
-import SearchButton from "./SearchButton";
 
 const SearchEngine = () => {
   return (
@@ -11,7 +10,7 @@ const SearchEngine = () => {
           placeholder="Enter a city name..."
           className="search-box"
         />
-        <SearchButton />
+        <button type="submit">Search</button>
       </form>
     </div>
   );
