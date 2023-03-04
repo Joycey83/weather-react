@@ -1,6 +1,7 @@
 import "./App.css";
 import backgroundImage from "./components/images/weatherbg.png";
 import SearchEngine from "./components/SearchEngine";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         style={{ backgroundImage: `url(${backgroundImage})` }}
       >
         <SearchEngine />
+        <Footer />
       </div>
     </div>
   );
