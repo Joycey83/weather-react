@@ -2,3 +2,11 @@
   position: relative;
   left: 200px;
 }
+
+.weather--information__weather-display {
+  text-align: center;
+}
+
+.weather--information__weather-display > li {
+  line-height: 2.5;
+}

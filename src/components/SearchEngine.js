@@ -49,7 +49,7 @@ const SearchEngine = () => {
           <i className="fa-solid fa-magnifying-glass"></i>
         </button>
       </form>
-      <h2>{cityNameMessage}</h2>
+      <h2 className="search--engine__city-name">{cityNameMessage}</h2>
       <WeatherInformation
         displayLoading={loaded}
         cityName={cityName}

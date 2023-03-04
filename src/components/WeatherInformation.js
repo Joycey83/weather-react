@@ -15,7 +15,7 @@ const WeatherInformation = (props) => {
 
   if (props.displayLoading) {
     weatherContent = (
-      <ul className="weather-display">
+      <ul className="weather--information__weather-display">
         <li>
           {" "}
           The Temperature in {props.cityName} is {Math.round(props.cityTemp)}°C.
