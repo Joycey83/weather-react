@@ -1,14 +1,14 @@
 import { ColorRing } from "react-loader-spinner";
-// import "./WeatherInformation.css";
+import "./WeatherInformation.css";
 const WeatherInformation = (props) => {
   let weatherContent = (
     <ColorRing
       visible={true}
       height="80"
-      width="80"
+      width="100"
       ariaLabel="blocks-loading"
       wrapperStyle={{}}
-      wrapperClass="blocks-wrapper"
+      wrapperClass="weather--information__loader-spinner"
       colors={["#5F9EA0", "#0047AB", "#6495ED", "#00FFFF", "#088F8F"]}
     />
   );

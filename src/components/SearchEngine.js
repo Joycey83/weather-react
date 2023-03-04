@@ -40,6 +40,7 @@ const SearchEngine = () => {
       <form onSubmit={handleSubmit}>
         <input
           type="search"
+          value={cityInput}
           placeholder="Enter a city name..."
           className="search--engine__search-box"
           onChange={cityInputHandler}
