@@ -3,14 +3,16 @@ import "./SearchEngine.css";
 
 const SearchEngine = () => {
   return (
-    <div className="search-box-container">
+    <div className="search--engine__search-box-container">
       <form>
         <input
           type="search"
           placeholder="Enter a city name..."
-          className="search-box"
+          className="search--engine__search-box"
         />
-        <button type="submit">Search</button>
+        <button className="search--engine__btn" type="submit">
+          <i className="fa-solid fa-magnifying-glass"></i>
+        </button>
       </form>
     </div>
   );
